@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,500&display=swap');
+
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+background-image:url(/Multimedia/fondo.jpg);
+margin: 0;
+}
+.full-content{
+    width: 100%;
+    height: auto;
+}
+.sidebar{
+    width: 25%;
+    height: auto;
+    float: left;
+    background-color: black;
+    text-align: center;
+
+}
+.sidebar img{
+    width: 300px;
+    border-radius: 50%;
+    margin-top: 25px;
+}
+.btn-container{
+padding: 25px;
+
+
+}
+.side-btn{
+    width: auto;
+    height: auto;
+    text-decoration: none;
+    color: #fff;
+    background-color: black;
+    display: block;
+    padding: 25px;
+    padding-top: 25px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 5px;
+    background-color:#990000  ;
+}
+.side-btn:not(.active):hover{
+    background-color: aqua;
+}
+.content{
+    width: 75%;
+    float: right;
+}
+
+.active{
+    background-color: #33FF66  ;
+}
+.container{
+    padding: 10px 25px;
+}
+.card{
+    background-color: #f0fffd;
+    background-image: linear-gradient(0deg, #f0fffd 0%, #ddfcf8 100%);
+ background-color: whitesmoke;
+    padding: 10px 15px;
+    box-shadow: 0 0 20px 10px rgb(87, 35, 35);
+}
+.card img{
+    width: 250px;
+    border-radius: 50%;
+}
+.card:hover{
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
+
+}
+.car.h1{
+    text-align: center;
+}
+.skill{
+    width: 100%;
+    height: auto;
+    padding: 15px 0px;
+}
+.skill-name{
+    width: 50%;
+    float: left;
+    text-align: left;
+}
+.skill-percent{
+    width: 50%;
+    float: right;
+    text-align: right;
+}
+.skill-level{
+    width: 100%;
+    height: 15px;
+    margin-top: 25px;
+    box-sizing: border-box;
+    background-color: #FBAB7E;
+    border-radius: 15px;
+}
+.level{
+    height: 10px;
+    border-radius: 15px;
+}
+.level-html{
+    width: 90%;
+    background-color: cadetblue;
+}
+.level-css{
+    width: 80%;
+    background-color: palevioletred;
+}
+.level-js{
+    width: 40%;
+    background-color: royalblue;
+}
+.level-git{
+    width: 70%;
+    background-color: black;
+}
+.negr{
+    font-weight: bold;
+}
+.redes{
+    width:100px;
+}
