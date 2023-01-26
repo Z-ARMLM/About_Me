@@ -1,11 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Langar&display=swap');
 
-*{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
+                        
 body{
-background-image:url(/Multimedia/fondo.jpg);
+background-image:url(/Multimedia/fondo\ \(1\).jpg);
 margin: 0;
+}
+.prof{
+    text-align: center;
+    font-family: 'Langar', cursive;
+}
+.h2{
+    font-family: 'Langar', cursive;
+}
+.card h1{
+    font-family: 'Courgette', cursive; 
+    font-size: 80px;
+    text-align: center;
 }
 .full-content{
     width: 100%;
@@ -17,7 +32,6 @@ margin: 0;
     float: left;
     background-color: black;
     text-align: center;
-
 }
 .sidebar img{
     width: 300px;
@@ -26,26 +40,27 @@ margin: 0;
 }
 .btn-container{
 padding: 25px;
-
-
 }
 .side-btn{
     width: auto;
     height: auto;
     text-decoration: none;
-    color: #fff;
+    color: black;
     background-color: black;
     display: block;
     padding: 25px;
     padding-top: 25px;
     margin-bottom: 15px;
     text-align: center;
-    font-size: 25px;
+    font-size: 40px;
     border-radius: 5px;
-    background-color:#990000  ;
+    background-color:#990000;
+    font-family: 'Creepster', cursive;    
+
 }
 .side-btn:not(.active):hover{
     background-color: aqua;
+    color: #990000;
 }
 .content{
     width: 75%;
@@ -53,10 +68,14 @@ padding: 25px;
 }
 
 .active{
-    background-color: #33FF66  ;
+    background-color: #9E9E9E;
+    color: white;
 }
 .container{
-    padding: 10px 25px;
+    padding-left: 25px;
+}
+.li{
+    padding-top: 0%;
 }
 .card{
     background-color: #f0fffd;
@@ -65,17 +84,53 @@ padding: 25px;
     padding: 10px 15px;
     box-shadow: 0 0 20px 10px rgb(87, 35, 35);
 }
-.card img{
+.profile{
     width: 250px;
-    border-radius: 50%;
+    padding-left: 40%;
 }
+
+.objetives{
+    padding-top: 40px;
+    font-family: 'Langar', cursive;
+    font-size:40px ;
+    color: darkblue;
+}
+.secund{
+   padding-left:40px ;
+    padding-top: 0px;
+    padding-bottom: 0%;
+    font-family: 'Langar', cursive;
+    font-size:40px ;
+    color: darkblue;
+}
+
 .card:hover{
     box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
 
 }
-.car.h1{
-    text-align: center;
+.negr{
+    font-weight: bold;
+    font-size: 20px;
+    padding-left:70px ;
+    padding-top: 10px;
 }
+.ctr{
+    padding-left: 70px;
+    padding-top: 5px;
+    font-size: 18px;
+}
+.logos{
+    width:100px;
+    padding: 15px;
+   text-align: center;
+}
+.face{
+    width:100px;
+    padding: 15px;
+    padding-left: 25%;
+   text-align: center;
+}
+
 .skill{
     width: 100%;
     height: auto;
@@ -85,18 +140,23 @@ padding: 25px;
     width: 50%;
     float: left;
     text-align: left;
+    font-size: 25px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 10px;
 }
 .skill-percent{
     width: 50%;
     float: right;
     text-align: right;
+    padding-top: 10px;
+
 }
 .skill-level{
     width: 100%;
     height: 15px;
     margin-top: 25px;
     box-sizing: border-box;
-    background-color: #FBAB7E;
+    background-color:darkblue;
     border-radius: 15px;
 }
 .level{
@@ -104,24 +164,127 @@ padding: 25px;
     border-radius: 15px;
 }
 .level-html{
-    width: 90%;
-    background-color: cadetblue;
+    width: 40%;
+    background-color: #FF4500;
 }
 .level-css{
-    width: 80%;
-    background-color: palevioletred;
+    width: 30%;
+    background-color: #1E90FF;
 }
 .level-js{
-    width: 40%;
-    background-color: royalblue;
+    width: 5%;
+    background-color: #FFD700;
 }
 .level-git{
-    width: 70%;
-    background-color: black;
+    width: 30%;
+    background-color: #808080;
 }
-.negr{
-    font-weight: bold;
+.level-word{
+    width: 100%;
+    background-color: #20B2AA;
 }
-.redes{
-    width:100px;
+.level-ppt{
+    width: 100%;
+    background-color: #800000;
+}
+.level-excel{
+    width: 80%;
+    background-color: #32CD32;
+}
+.level-ortog{
+    width: 90%;
+    background-color: #00FA9A;
+}
+.level-sql{
+    width: 30%;
+    background-color: #6B8E23;
+}
+.level-linux{
+    width: 30%;
+    background-color: #CD853F;
+}
+.level-cshar{
+    width: 50%;
+    background-color: #4682B4;
+}
+.level-security{
+    width: 40%;
+    background-color: red;
+}
+.level-wf{
+    width: 50%;
+    background-color: #6A5ACD;
+}
+.level-java{
+    width: 50%;
+    background-color: #F4A460;
+}
+.level-buena{
+    width: 100%;
+    background-color: #B0E0E6;
+}
+.level-cambio{
+    width: 100%;
+    background-color: #98FB98;
+}
+
+.slider{
+	width:1000px;
+    height: auto;
+	margin:50px auto 0;
+	overflow: hidden;
+}
+
+.slider ul {
+	display: flex;
+	padding: 0;
+	width: 1000%;
+	
+	animation: slide 44s infinite alternate ease-in-out;
+}
+
+.slider li {
+	width: 100%;
+	list-style: none;
+}
+
+.slider img {
+	width: 1000px;
+    height: 720px;
+}
+
+@keyframes slide {
+	0% {margin-left: 0;}
+	9% {margin-left: 0;}
+	
+	10% {margin-left: -100%;}
+	18% {margin-left: -100%;}
+	
+	19% {margin-left: -200%;}
+	27% {margin-left: -200%;}
+	
+	28% {margin-left: -300%;}
+	36% {margin-left: -300%;}
+
+    37% {margin-left: -400%;}
+	45% {margin-left: -400%;}
+
+    46% {margin-left: -500%;}
+	54% {margin-left: -500%;}
+
+    55% {margin-left: -600%;}
+	63% {margin-left: -600%;}
+
+    64% {margin-left: -700%;}
+	72% {margin-left: -700%;}
+
+    73% {margin-left: -800%;}
+	81% {margin-left: -800%;}
+
+    82% {margin-left: -900%;}
+	90% {margin-left: -900%;}
+
+    91% {margin-left: -1000%;}
+	100% {margin-left: -1000%;}
+
 }
