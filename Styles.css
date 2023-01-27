@@ -82,6 +82,8 @@ padding: 25px;
     background-image: linear-gradient(0deg, #f0fffd 0%, #ddfcf8 100%);
  background-color: whitesmoke;
     padding: 10px 15px;
+    padding-bottom: 25px;
+    margin-bottom: 0%;
     box-shadow: 0 0 20px 10px rgb(87, 35, 35);
 }
 .profile{
@@ -146,6 +148,7 @@ padding: 25px;
 }
 .skill-percent{
     width: 50%;
+    height: 25px;
     float: right;
     text-align: right;
     padding-top: 10px;
@@ -160,7 +163,7 @@ padding: 25px;
     border-radius: 15px;
 }
 .level{
-    height: 10px;
+    height: 20px;
     border-radius: 15px;
 }
 .level-html{
@@ -287,4 +290,33 @@ padding: 25px;
     91% {margin-left: -1000%;}
 	100% {margin-left: -1000%;}
 
+}
+
+footer{
+        background: rgb(255, 67, 67);
+        color: white;
+        text-align: center;
+        line-height: 100px;
+     
+    }
+    
+.btn{
+        padding: 20px;
+        float: center;
+        background-color: #20B2AA;
+        font-family: 'Langar', cursive;
+        font-size: 20px;
+        border-radius: 50px;
+        border: 0px;
+
+  }
+  .boton{
+    text-align: center;
+  }  
+
+
+  .btn:not(.active):hover{
+    background-color: #1a0321;
+    color: #00FA9A;
+    box-shadow: 10px black;
 }
