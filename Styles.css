@@ -7,7 +7,7 @@
 
                         
 body{
-background-image:url(/Multimedia/fondo\ \(1\).jpg);
+background-image:url(/Multimedia/fondo\ \(3\).jpg);
 margin: 0;
 }
 .prof{
@@ -22,6 +22,16 @@ margin: 0;
     font-size: 80px;
     text-align: center;
 }
+
+.card h1:not(.active):hover{
+    background-color: rgb(57, 73, 73);
+    color: white;
+}
+.active{
+    background-color: #9E9E9E;
+    color: white;
+}
+
 .full-content{
     width: 100%;
     height: auto;
@@ -96,6 +106,8 @@ padding: 25px;
     font-family: 'Langar', cursive;
     font-size:40px ;
     color: darkblue;
+    text-align: center;
+
 }
 .secund{
    padding-left:40px ;
@@ -132,7 +144,10 @@ padding: 25px;
     padding-left: 25%;
    text-align: center;
 }
-
+.card li{
+    font-size: 20px;
+    padding-bottom: 5px;
+}
 .skill{
     width: 100%;
     height: auto;
