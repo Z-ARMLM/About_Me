@@ -56,7 +56,7 @@ padding: 25px;
     height: auto;
     text-decoration: none;
     color: black;
-    background-color: black;
+    background-color: rgb(238, 212, 212);
     display: block;
     padding: 25px;
     padding-top: 25px;
@@ -308,10 +308,10 @@ padding: 25px;
 }
 
 footer{
-        background: rgb(255, 67, 67);
-        color: white;
+        background: rgb(39, 34, 34);
+        color: rgb(221, 216, 216);
         text-align: center;
-        line-height: 100px;
+        padding: 30px;
      
     }
     
@@ -355,7 +355,7 @@ textarea{
     width: 100%;
     padding: 12px 0px;
     border-radius:7px ;
-    border: 1px solid gainsboro;
+    border: 1px solid rgb(175, 13, 13);
     margin: 6px 0px 16px 0px;
     resize: vertical; 
     max-height: 200px;
